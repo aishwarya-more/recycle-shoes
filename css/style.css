@@ -499,7 +499,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   #about .about-img {
-    height: auto;
+    height: 500px;
   }
   #about .about-img img {
     margin-left: 0;
@@ -624,6 +624,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio {
   background: #fff;
   padding: 80px 0;
+  margin: 0;
 }
 
 #portfolio .portfolio-item {
@@ -631,11 +632,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 260px;
+  height: 256px;
   width: 100%;
   display: table;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  margin-right:20px;
 }
 
 #portfolio .portfolio-item .details {
@@ -751,6 +753,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
+margin-right:20px;
 }
 
 #team .member .pic img {
